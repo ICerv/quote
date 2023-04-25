@@ -1,0 +1,23 @@
+.quote {}
+
+.quote__content {
+  max-width: 30rem;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 1.5rem;
+  padding-right: 1rem;
+  font-style: italic;
+  background-image: url(./img/ambition.jpg);
+  background-size: cover;
+}
+
+.quote__text {
+  color: #fff;
+}
+
+.quote__author {
+  text-align: center;
+}
